@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body class="bodyExploracion">
+    <div class="exploracionMapa">
+      <nav class="navbar navbar-expand-lg navClass">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="../index.html"><img src="../img/icono.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link  active" aria-current="page" href="../views/exploracion.html">Exploracion</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link " href="../views/guerreros.html">Guerreros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../views/elCaballero.html">El caballero</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../views/mundo.html">Mundo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../views/bandaSonora.html">Banda sonora</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          </nav>
+          <h1 class="tituloExploracion">Exploracion</h1>  
+        <section class="container ">
+          <div id="carouselExampleCaptions" class="carousel slide col-6 posicionSlide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/Map.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="tamañoPrimerSlide">Mapa con Marcadores</h5>
+                      <p>Mapa completo con anotaciones de los distintos lugares del mapa.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/Clean_Map.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="tamañoSegundoSlide">Mapa Limpio</h5>
+                      <p>Mapa completo sin ninguna anotacion.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/Map_Artwork.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="tamañoTercerSlide">Mapa de la Comunidad</h5>
+                      <p>Mapa ilustrado por Kickstarter.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <section>
+              <div class="list-group zonasMapa">
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Acantilados Aulladores</h5>
+                  </div>
+                  <p class="mb-1">Un paraje yermo en el extremo noroeste de Hallownest. Escasamente ocupada por enemigos pero sustentado por los cadáveres de bichos de todos los tamaños. En el extremo oeste se encuentra un poderoso viento que empujará al jugador bloqueándole el paso.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Bocasucia</h5>
+                  </div>
+                  <p class="mb-1">Un pequeño pueblo situado en lo más alto de Hallownest, llegamos a él al poco de empezar el juego.
+                    Está conectada con Cruces Olvidados y Paso del Rey, el lugar donde el jugador empieza su aventura. También podemos ir hacia Cumbre de Cristal a través de un ascensor que tendremos que desbloquear.</p>
+                  
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Canales Reales</h5>
+                  </div>
+                  <p class="mb-1">Un alcantarillado formado por una serie de tuberías de desagüe bajo la superficie de Ciudad de Lágrimas. Al este se encuentra un ascensor derruido debido al abandono. Por el noreste podemos encontrar un pozo que conecta con la sala de Emilitia en la Ciudad de Lágrimas.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Cañón Nublado</h5>
+                  </div>
+                  <p class="mb-1">Una pequeña zona repleta de niebla, burbujas y ácido. En el centro se sitúan los Archivos de la Maestra, casa de la Soñadora Monomon y sus experimentos.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Ciudad de Lágrimas</h5>
+                  </div>
+                  <p class="mb-1">Capital de Hallownest y el corazón del Reino; el agua del Lago Azul cae constantemente, creando una lluvia perpetua. Se caracteriza, además, por la presencia de varias torres y edificios como el Santuario de Almas, la Torre del Vigía, Casa de los Placeres y la Torre del Amor.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Coliseo de los Insensatos</h5>
+                  </div>
+                  <p class="mb-1">El Coliseo de los Insensatos se encuentra en Límite del Reino, ahí el jugador puede participar en 3 pruebas en las cuales se enfrentará a oleadas de enemigos en una arena. Para desbloquear una Prueba, es necesario haber superado todas las anteriores y pagar una cantidad de Geo.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Cruces Olvidados</h5>
+                  </div>
+                  <p class="mb-1">Estas carreteras antaño eran concurridas por viajeros de todo Hallownest. Pero tras muchos años el deterioro, las plagas de bichos agresivos y los restos de antiguos habitantes, las han transformado en una zona peligrosa.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Cuenca Antigua</h5>
+                  </div>
+                  <p class="mb-1">La zona más profunda de Hallownest, casi inhóspita. Aquí se encontraba originalmente el Palacio Blanco, hogar del Rey Pálido.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Cumbre de Cristal</h5>
+                  </div>
+                  <p class="mb-1">Localizado al este de Bocasucia, es una alta montaña que fue usada en el pasado como mina por sus preciados cristales.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Hogar de los Dioses</h5>
+                  </div>
+                  <p class="mb-1">Se encuentra dentro de los sueños del Buscador de Dioses. Ahí el Caballero podrá enfrentarse a distintos desafíos y jefes.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Jardines de la Reina</h5>
+                  </div>
+                  <p class="mb-1">Una área llena de verjas ornamentadas, espinas y peligrosas plataformas situada al oeste Hallownest. En el pasado se trataba de los jardines de la Dama Blanca, pero fue invadida por las Mantis Traidoras que habían sido desterradas de su tribu.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">La colmena</h5>
+                  </div>
+                  <p class="mb-1">Situada al sur de Límite del Reino. A pesar de estar en Hallownest, las abejas se encuentran al margen de los asuntos del reino.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Límite del Reino</h5>
+                  </div>
+                  <p class="mb-1">Sitúada al extremo este de Hallownest y con una constante lluvia de ceniza se encuentra el Límite del Reino. Cuerpos procedentes del Coliseo de los Insensatos caen desde arriba para aterrizar en un lago de ácido. Al sureste del área se encuentra un profundo foso que conduce al mayor depósito de Geo del juego.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Nido Profundo</h5>
+                  </div>
+                  <p class="mb-1">Profundidad oculta en la esquina suroeste de Hallownest, repleta de toda variedad de arañas. Al oeste se encuentra Poblado distante, una gran estructura formada por telarañas y que contiene a la Soñadora Herrah</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Palacio Blanco</h5>
+                  </div>
+                  <p class="mb-1">El palacio del rey pálido y su tribunal, esfumado misteriosamente de Hallownest un tiempo después de la infección.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Páramos Fúngicos</h5>
+                  </div>
+                  <p class="mb-1">Son cavernas abarrotadas de esporas. A diferencia del resto de zonas de Hallownest, está habitada por seres fúngicos. Al sur, se encuentra la Aldea Mantis, y  al este, la Ciudad de Lágrimas.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Sendero Verde</h5>
+                  </div>
+                  <p class="mb-1">Profundiades llenas de vegetación, protegidas por bichos cubiertos de plantas. La gran cantidad de ácido y vegetación dificultan el paso.</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Tierras de Reposo</h5>
+                  </div>
+                  <p class="mb-1">Un gran cementerio situado al extremo este de Hallownest. El jugador llega por primera vez cayendo desde Cumbre de Cristal o usando el Tranvía. Aquí encontrará el monumento y la localización de los Soñadores, además de recibir el Aguijón Onírico.</p>
+                </a>
+
+              </div>
+            </section>
+            
+            
+            
+            <div class="container colorFooter footerExploracion">
+              <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Subir</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contacto</a></li>
+                  <li class="nav-item"><a href="https://www.teamcherry.com.au/" class="nav-link px-2 text-muted">Creadores</a></li>
+                </ul>
+                <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+              </footer>
+            </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
