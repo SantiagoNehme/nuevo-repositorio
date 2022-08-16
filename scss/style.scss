@@ -1,0 +1,178 @@
+main{
+    background-color: black;
+    grid-area: main;
+
+    p{
+    
+        background-color: black;
+        font-size: 20px;
+        font-family: 'Ibarra Real Nova', serif;
+        color: whitesmoke;
+        margin: 2rem;
+        padding: 0;
+    }
+}
+footer{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.navClass{
+    background-color: black;
+    text-align: left;
+    a{
+        color: antiquewhite;
+    }
+    &:hover{
+        color: cornflowerblue;
+    }
+    img{
+        width: 3vw;
+    }
+    button{
+        background-color: grey;
+    }
+}
+.colorFondo{
+    background-color: black;
+}
+.titulo{
+    font-size: 12rem;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    padding: 0;
+}
+.imagenAlargada{
+    display: flex;
+    float: right;
+    width: 40%;
+    height: 0px;
+    margin-bottom: 53rem;
+    margin-left: 70rem;
+    margin-top: -22rem ;
+    margin-right: 10rem;
+}
+.imagenVertical{
+    display: flex;
+    width: 15%;
+    padding: 0;
+    margin-left: 90rem;
+    margin-bottom: 70rem;
+    margin-top: -27rem;
+}
+.quirrelLago{
+    display: flex;
+    float: right;
+    margin-top: -100rem;
+    margin-right: 33rem;
+    
+}
+
+.tablaLogros{
+    color: antiquewhite;
+    background-color: antiquewhite;
+    position: center;
+    font-size: 20px;
+    width: 50%;
+    margin-top: -60rem;
+    padding: 0;
+    background: rgb(55,26,77);
+    background: linear-gradient(90deg, rgba(55,26,77,1) 48%, rgba(2,0,36,1) 100%, rgba(124,0,255,1) 100%);
+}
+.introduccion::first-letter{
+
+    font-size: 35px;
+}
+.introduccion{
+    text-align: left;
+}
+img{
+    width: 100%;
+}
+// --------------------------------EXPLORACION---------------------------------------------
+.bodyExploracion{
+    background-color: black;
+}
+.tituloExploracion{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
+.exploracionMapa{
+    h1{
+        font-size: 6rem;
+        color: whitesmoke;
+        text-align: center;
+        font-family: 'Ibarra Real Nova', serif;
+    }
+}
+.footerExploracion{
+    width: auto;
+    margin-top: 60rem;
+}
+.zonasMapa{
+    display: flex;
+    margin-left: -20rem;
+    margin-top: -25rem;
+    width: 30vw;
+    a{
+        background-color: black;
+        color: antiquewhite;
+        font-size: 15px;
+    }
+}
+
+.tamañoPrimerSlide{
+    font-size: 20px;
+}
+.tamañoSegundoSlide{
+    font-size: 20px;
+}
+.tamañoTercerSlide{
+    font-size: 20px;
+}
+.posicionSlide{
+    display: flex;
+    margin-left: 65rem;
+    float: right;
+    margin-top: 40rem;
+    margin-bottom: -40rem;
+}
+
+//------------------------GUERREROS------------------------
+
+.bodyGuerreros{
+    background-color: black;
+}
+.imagenDeFondo{
+    background-image:url(../img/guerreros.png);
+    background-position: absolute;
+    background-repeat:repeat;
+    div{
+        border-radius: 3rem;
+    }
+    svg{
+        border-radius: 3rem;
+    }
+    p{
+        background-color: none;
+    }
+}
+.card-text{
+    background-color: transparent;
+    color: black
+}
+.textoCorto{
+    p{
+        font-size: 1.3rem;
+        color: grey;
+        font-family: 'Cormorant SC', serif;
+    }
+}
+.tituloGuerreros{
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: 'Cormorant SC', serif;
+}
